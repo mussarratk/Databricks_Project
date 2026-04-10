@@ -1,7 +1,6 @@
 # Databricks_Project
 
-# 🛒 ShopVista: End-to-End E-Commerce Data Platform
-
+# 🛒 ShopVista: End-to-End Azure Data Engineering: E-commerce Pipeline with Databricks & PySpark
    
 
 ## 📌 Project Overview
@@ -23,7 +22,7 @@ This project solves these bottlenecks by delivering a **centralized, scalable, a
 
 The solution leverages an ELT approach, orchestrated on Azure:
 
-`[Insert Architecture Diagram Here]`
+
 <img width="1365" height="575" alt="image" src="https://github.com/user-attachments/assets/35ddf511-04c1-41f5-80f6-f0a280c83264" />
 
 
