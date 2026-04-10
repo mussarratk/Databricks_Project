@@ -1,12 +1,80 @@
 # Databricks_Project
 
-<img width="1122" height="564" alt="image" src="https://github.com/user-attachments/assets/1137cc93-38c7-4eb3-8e64-d93c02da7d60" />
+# 🛒 ShopVista: End-to-End E-Commerce Data Platform
 
+   
 
+## 📌 Project Overview
 
-<img width="1088" height="627" alt="image" src="https://github.com/user-attachments/assets/64cbd12e-1f6d-4c44-8698-db1a6278e776" />
-<img width="1355" height="620" alt="image" src="https://github.com/user-attachments/assets/cbe2926c-018e-4a19-8fe9-ad18e4fab754" />
-<img width="1354" height="626" alt="image" src="https://github.com/user-attachments/assets/adeba934-4172-482e-8d9e-725500fd26cb" />
-<img width="759" height="637" alt="image" src="https://github.com/user-attachments/assets/e2a761fd-ac53-4d3f-b48f-3fa0708c898a" />
-<img width="1353" height="620" alt="image" src="https://github.com/user-attachments/assets/bca48910-c684-4a48-b4ce-e269ee6262c3" />
-<img width="1353" height="622" alt="image" src="https://github.com/user-attachments/assets/b08ff37b-1387-4c12-af24-3969c2c22ea5" />
+ShopVista is a simulated high-growth e-commerce platform that was constrained by scattered data, manual consolidation, and delayed reporting cycles.
+
+This project solves these bottlenecks by delivering a **centralized, scalable, and fully automated data platform** on Microsoft Azure. By utilizing Azure Databricks, Unity Catalog, and a strict Medallion Architecture, raw operational data is transformed into high-performance, analytics-ready datasets that power an interactive Power BI dashboard for executive decision-making.
+
+## 🎯 The Business Value
+
+  * **Eliminated Manual Data Prep:** Replaced fragile, manual flat-file workflows with automated cloud pipelines.
+  * **Accelerated Insights:** Reduced reporting turnaround from hours to minutes.
+  * **Single Source of Truth:** Created a reliable, governed foundation for enterprise analytics.
+  * **Self-Service BI:** Empowered business stakeholders to track KPIs in real-time.
+
+-----
+
+## 🏗️ Technical Architecture & Medallion Pipeline
+
+The solution leverages an ELT approach, orchestrated on Azure:
+
+`[Insert Architecture Diagram Here]`
+
+### 1\. Data Ingestion (Raw Zone)
+
+  * **Storage:** Azure Data Lake Storage Gen2 (ADLS)
+  * **Action:** Source CSV files (Orders, Customers, Products, etc.) land in dedicated ADLS directories, establishing a centralized and traceable data lake.
+
+### 2\. Medallion Architecture Processing (Databricks)
+
+Using PySpark and Delta Lake, data progresses through three strict refinement layers:
+
+| Layer | Purpose | Key Transformations & Enforcements |
+| :--- | :--- | :--- |
+| **🥉 Bronze** | Raw Ingestion | Minimal transformation, historical storage, and strict schema enforcement. |
+| **🥈 Silver** | Cleansing & Conforming | Deduplication, handling nulls/invalid records, referential integrity checks, and standardization. |
+| **🥇 Gold** | Business Intelligence | Star schema modeling (Fact & Dimension tables), aggregated metrics, optimized for Power BI. |
+
+### 3\. Automated Orchestration
+
+To ensure data freshness while optimizing compute costs, processing is divided into scheduled Databricks Jobs:
+
+  * **🔁 Daily Refresh:** Processes Dimension tables (Customers, Products, Categories, Brands, Date) and `Fact_Order_Items`. Dependencies are strictly enforced to guarantee referential consistency.
+  * **📅 Monthly Refresh:** Processes heavy historical loads, specifically `Fact_Order_Returns` and `Fact_Order_Shipments`, enabling long-term trend analysis.
+
+-----
+
+## 📊 Analytics & Dashboards
+
+`[Insert Dashboard Preview Image Here]` | [🔗 View Live Dashboard](https://www.google.com/search?q=Link-to-dashboard)
+
+The Gold layer directly feeds a Power BI data model, delivering actionable insights on:
+
+  * **Revenue & Growth:** Total Sales, Units Sold, and Monthly Revenue Trends.
+  * **Customer Behavior:** Repeat Customer Rates and Distribution by Region.
+  * **Product Performance:** Sales split by Brand, Category, and Channel (Mobile vs. Website).
+
+-----
+
+## 🧠 Developer Profile & Highlighted Skills
+
+I am a **Databricks Certified Associate** currently pursuing an MBA in Data Science. With over 4 years of experience driving high-stakes E-commerce operations for global brands, I am deeply passionate about engineering the narrative—turning fragmented data into scalable data pipelines and enabling data-driven insights.
+
+**Core Competencies Demonstrated in This Project:**
+
+  * **Cloud Data Engineering:** Architecting end-to-end solutions using Microsoft Azure (ADLS) and understanding broader cloud concepts across AWS.
+  * **Big Data Processing:** Heavy-duty ETL/ELT transformations using **Python, SQL, and PySpark** within Azure Databricks.
+  * **Data Modeling:** Designing robust Medallion Architectures (Bronze, Silver, Gold) and Star Schemas for business analytics.
+  * **Governance & Orchestration:** Utilizing Unity Catalog and automating complex workflows via Databricks Jobs.
+  * **Business Intelligence:** Bridging the gap between raw data and executive strategy using Power BI.
+
+-----
+
+## 🙏 Acknowledgements
+
+Special thanks to **Codebasics** for their exceptional Data Engineering Bootcamp, hands-on project guidance, and real-world problem statements that helped inspire the design and implementation of this end-to-end cloud platform.
