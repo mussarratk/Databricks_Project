@@ -81,6 +81,7 @@ I am a **Databricks Certified Associate** currently pursuing an MBA in Data Scie
 Special thanks to **Codebasics** for their exceptional Data Engineering Bootcamp, hands-on project guidance, and real-world problem statements that helped inspire the design and implementation of this end-to-end cloud platform.
 
 ---
+<img width="1053" height="320" alt="image" src="https://github.com/user-attachments/assets/6617f038-89a8-4c68-bd11-7b32839e2695" />
 
 
 
