@@ -103,6 +103,10 @@ Special thanks to **Codebasics** for their exceptional Data Engineering Bootcamp
 ---
 Azure Workspace
 
+<img width="1366" height="580" alt="image" src="https://github.com/user-attachments/assets/142bb989-0721-4f86-940f-4b07c9db942a" />
+<img width="1278" height="362" alt="image" src="https://github.com/user-attachments/assets/9348cb62-6c42-4bd4-8717-7749fe1af7d1" />
+
+
 <img width="1347" height="634" alt="image" src="https://github.com/user-attachments/assets/990577fd-4c3d-43c8-8b74-a0cf157116ed" />
 <img width="1357" height="621" alt="image" src="https://github.com/user-attachments/assets/d76e38ce-79b1-44a4-927f-25ec3824a4bf" />
 <img width="1342" height="615" alt="image" src="https://github.com/user-attachments/assets/82f6e2db-1f34-4a3f-94a3-35d4351e48fc" />
@@ -113,11 +117,7 @@ Azure Workspace
 
 
 
+<img width="1267" height="549" alt="image" src="https://github.com/user-attachments/assets/2d932c63-8942-4894-9099-a828e6d981a1" />
 
 ---
 
-<img width="1347" height="582" alt="image" src="https://github.com/user-attachments/assets/d9f9abf6-6122-4a8d-94e6-94feeb297f10" />
-
-<img width="1357" height="618" alt="image" src="https://github.com/user-attachments/assets/15017276-ca9c-4b31-9487-41937307f367" />
-
-<img width="1357" height="611" alt="image" src="https://github.com/user-attachments/assets/4d533d71-0c95-4e9a-9d1b-e8b2d6aaf740" />
