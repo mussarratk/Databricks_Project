@@ -107,8 +107,6 @@ Azure Workspace
 <img width="1278" height="362" alt="image" src="https://github.com/user-attachments/assets/9348cb62-6c42-4bd4-8717-7749fe1af7d1" />
 
 
-<img width="1347" height="634" alt="image" src="https://github.com/user-attachments/assets/990577fd-4c3d-43c8-8b74-a0cf157116ed" />
-<img width="1357" height="621" alt="image" src="https://github.com/user-attachments/assets/d76e38ce-79b1-44a4-927f-25ec3824a4bf" />
 <img width="1342" height="615" alt="image" src="https://github.com/user-attachments/assets/82f6e2db-1f34-4a3f-94a3-35d4351e48fc" />
 
 <img width="1053" height="320" alt="image" src="https://github.com/user-attachments/assets/6617f038-89a8-4c68-bd11-7b32839e2695" />
@@ -118,6 +116,13 @@ Azure Workspace
 
 
 <img width="1267" height="549" alt="image" src="https://github.com/user-attachments/assets/2d932c63-8942-4894-9099-a828e6d981a1" />
+
+<img width="704" height="598" alt="image" src="https://github.com/user-attachments/assets/e70168db-2270-4a37-ac37-71e7d82ef61c" />
+<img width="1346" height="440" alt="image" src="https://github.com/user-attachments/assets/aa6db235-b313-418d-9e58-abeb8527bc19" />
+
+<img width="1180" height="485" alt="image" src="https://github.com/user-attachments/assets/f9cd7916-faa9-4f57-bdd5-9bddaab3d8aa" />
+
+<img width="1356" height="615" alt="image" src="https://github.com/user-attachments/assets/4e466a28-23d2-4e90-a5f5-ef0f52182c67" />
 
 ---
 
