@@ -79,10 +79,9 @@ I am a **Databricks Certified Associate** currently pursuing an MBA in Data Scie
 ## 🙏 Acknowledgements
 
 Special thanks to **Codebasics** for their exceptional Data Engineering Bootcamp, hands-on project guidance, and real-world problem statements that helped inspire the design and implementation of this end-to-end cloud platform.
+
 ---
 
-<img width="1347" height="634" alt="image" src="https://github.com/user-attachments/assets/990577fd-4c3d-43c8-8b74-a0cf157116ed" />
-<img width="1357" height="621" alt="image" src="https://github.com/user-attachments/assets/d76e38ce-79b1-44a4-927f-25ec3824a4bf" />
 
 
 
@@ -103,6 +102,8 @@ Special thanks to **Codebasics** for their exceptional Data Engineering Bootcamp
 
 ---
 Azure Workspace
+<img width="1347" height="634" alt="image" src="https://github.com/user-attachments/assets/990577fd-4c3d-43c8-8b74-a0cf157116ed" />
+<img width="1357" height="621" alt="image" src="https://github.com/user-attachments/assets/d76e38ce-79b1-44a4-927f-25ec3824a4bf" />
 <img width="1347" height="582" alt="image" src="https://github.com/user-attachments/assets/d9f9abf6-6122-4a8d-94e6-94feeb297f10" />
 
 <img width="1357" height="618" alt="image" src="https://github.com/user-attachments/assets/15017276-ca9c-4b31-9487-41937307f367" />
