@@ -120,6 +120,8 @@ Azure Workspace
 
 
 <img width="704" height="598" alt="image" src="https://github.com/user-attachments/assets/e70168db-2270-4a37-ac37-71e7d82ef61c" />
+
+Connection - Created 2 external location and 2 external credentials for 2 containers  
 <img width="1346" height="440" alt="image" src="https://github.com/user-attachments/assets/aa6db235-b313-418d-9e58-abeb8527bc19" />
 
 <img width="1180" height="485" alt="image" src="https://github.com/user-attachments/assets/f9cd7916-faa9-4f57-bdd5-9bddaab3d8aa" />
