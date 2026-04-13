@@ -116,6 +116,8 @@ Azure Workspace
 
 
 <img width="1267" height="549" alt="image" src="https://github.com/user-attachments/assets/2d932c63-8942-4894-9099-a828e6d981a1" />
+<img width="1038" height="491" alt="image" src="https://github.com/user-attachments/assets/1e3375dc-a0e6-48aa-89de-f3468f4d2013" />
+
 
 <img width="704" height="598" alt="image" src="https://github.com/user-attachments/assets/e70168db-2270-4a37-ac37-71e7d82ef61c" />
 <img width="1346" height="440" alt="image" src="https://github.com/user-attachments/assets/aa6db235-b313-418d-9e58-abeb8527bc19" />
@@ -123,6 +125,16 @@ Azure Workspace
 <img width="1180" height="485" alt="image" src="https://github.com/user-attachments/assets/f9cd7916-faa9-4f57-bdd5-9bddaab3d8aa" />
 
 <img width="1356" height="615" alt="image" src="https://github.com/user-attachments/assets/4e466a28-23d2-4e90-a5f5-ef0f52182c67" />
+
+databricks
+<img width="1328" height="585" alt="image" src="https://github.com/user-attachments/assets/8ebe0123-b295-4679-99e4-8d31074de85c" />
+<img width="1349" height="633" alt="image" src="https://github.com/user-attachments/assets/8fb5ee05-7118-4634-938f-ce84d3e47d37" />
+
+
+
+
+
+
 
 ---
 
