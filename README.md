@@ -118,7 +118,8 @@ Azure Workspace
 <img width="1267" height="549" alt="image" src="https://github.com/user-attachments/assets/2d932c63-8942-4894-9099-a828e6d981a1" />
 <img width="1038" height="491" alt="image" src="https://github.com/user-attachments/assets/1e3375dc-a0e6-48aa-89de-f3468f4d2013" />
 
-
+Managed Location - uc-data container - contains managed table which will be saved in medallion layer
+Raw Location - ecomm-raw-data container - contains raw files which is for external volume raw/landing to point to 
 <img width="704" height="598" alt="image" src="https://github.com/user-attachments/assets/e70168db-2270-4a37-ac37-71e7d82ef61c" />
 
 Connection - Created 2 external location and 2 external credentials for 2 containers  
