@@ -123,14 +123,17 @@ Azure Workspace
 <img width="1346" height="440" alt="image" src="https://github.com/user-attachments/assets/aa6db235-b313-418d-9e58-abeb8527bc19" />
 
 <img width="1180" height="485" alt="image" src="https://github.com/user-attachments/assets/f9cd7916-faa9-4f57-bdd5-9bddaab3d8aa" />
-
 <img width="1356" height="615" alt="image" src="https://github.com/user-attachments/assets/4e466a28-23d2-4e90-a5f5-ef0f52182c67" />
 
-databricks
+databricks - through Access Connector : got data into databricks
+
 <img width="1328" height="585" alt="image" src="https://github.com/user-attachments/assets/8ebe0123-b295-4679-99e4-8d31074de85c" />
 <img width="1349" height="633" alt="image" src="https://github.com/user-attachments/assets/8fb5ee05-7118-4634-938f-ce84d3e47d37" />
 
+/Volumes/ecommerce/raw/raw_landing - external volume
+<img width="1341" height="525" alt="image" src="https://github.com/user-attachments/assets/b13b0c9e-3d0f-416e-a983-b85bd5a5fd38" />
 
+Through that raw connection - ingested data in bronze layer - and only dimension tables
 
 
 
