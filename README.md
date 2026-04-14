@@ -137,7 +137,9 @@ databricks - through Access Connector : got data into databricks
 <img width="1341" height="525" alt="image" src="https://github.com/user-attachments/assets/b13b0c9e-3d0f-416e-a983-b85bd5a5fd38" />
 
 Through that raw connection - ingested data in bronze layer - and only dimension tables
-
+- added metadata colums : source_file n ingested at
+- ingest csv file write the data into delta table format so that it gets all the capabilities of like acid, time-travel - its essential component of Lakehouse architecture
+- write n save it as delta in bronze layer create table as brz_bronze. for the first time write mode is overwrite and other mode is append mode for adding at the back - it's raw data
 
 
 
