@@ -140,6 +140,29 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 - added metadata colums : source_file n ingested at
 - ingest csv file write the data into delta table format so that it gets all the capabilities of like acid, time-travel - its essential component of Lakehouse architecture
 - write n save it as delta in bronze layer create table as brz_bronze. for the first time write mode is overwrite and other mode is append mode for adding at the back - it's raw data
+<img width="666" height="601" alt="image" src="https://github.com/user-attachments/assets/7394890d-4153-4c9e-9a4c-3642ce8609cf" />
+
+<img width="1348" height="627" alt="image" src="https://github.com/user-attachments/assets/3fc158fe-8fa3-416c-b113-5e03e92b5086" />
+
+----
+## Started Data Timeline Jan 2024 to Aug 2025 (Historical Data) -- Dec 2025 (Incremental Data)
+### Batch Processing: Collected data n process it all at once - every night data dropped at 11'o clock ETL job will load data in data warehouse triggered on schedule at every 2/4'o clock - Generate monthly financial data, daily summary data, Backfilling missing data.
+### Stream Processing: As soon as data arrives - checkpointing for recovery (it saves the information which files are already processed)- almost real time monitoring PowerBI dashboard updates with seconds, Kafka for upstream - live analytics - constantly- daily on going basis - Stock market price analytics -  **design data pipeline such that it process it  automatically **
+
+
+
+### Autoloader is a streaming ingestion feature designed to efficiently n automatically process new data files as they arrive in cloud storage - ADLS, S3 - in our case - in adls ecomm order_item - landing foldr daily someone is dropping new files n then we need to only process new files efficiently figure out - autoloader is feature which provide that functionality -- using pyspark module argument is CloudFiles : go to adls location n use autoloader to observe the file which are new don't process the old, it keeps track of old files what is processed. 
+
+### Structured Streaming : Is a stream processing engine that uses unified API to process both batch n stream processing
+
+
+
+
+
+
+### Widgets - dbutils.widgets - is use in many ways to specify the storage acount name or environment - dev/prod/beta - so the benefit is whenever running the same the notebook for different environment can update widgets and change the env and ok run all the cells n messing up with code for reconfigure parameter 
+
+
 
 
 
