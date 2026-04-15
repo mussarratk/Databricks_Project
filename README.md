@@ -226,15 +226,21 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 
 ### Date object is bigger 21-06-2025 then Date_id - 21062025 is integer object - which makes things little faster
 
-
-
 ### Dimensional Pipeline - 
+<img width="1340" height="610" alt="image" src="https://github.com/user-attachments/assets/3fb47fd3-bdf2-4902-82b4-0247bc326d91" />
+<img width="1297" height="599" alt="image" src="https://github.com/user-attachments/assets/9fc4ae24-f112-4666-a026-a365a5c77ad5" />
+<img width="1356" height="482" alt="image" src="https://github.com/user-attachments/assets/1834f57e-7616-4fbc-a649-e5b4b8549b27" />
 
 
 ### Fact Pipeline - 
+<img width="1259" height="571" alt="image" src="https://github.com/user-attachments/assets/6f5ac588-f9cd-453f-820b-2227b2bb27e2" />
+<img width="1117" height="571" alt="image" src="https://github.com/user-attachments/assets/1ba23ac2-7824-49c0-be49-901e5e5f2a8d" />
+<img width="1117" height="551" alt="image" src="https://github.com/user-attachments/assets/9fc0b61d-c294-4801-af9c-6726c1177379" />
 
 
 ### Daily Refresh Job - task job - 
+<img width="1334" height="333" alt="image" src="https://github.com/user-attachments/assets/52a1d15a-7cad-47b7-88bf-e040970959bf" />
+<img width="1358" height="520" alt="image" src="https://github.com/user-attachments/assets/8e75bab3-f32a-4bd2-851f-62c897093b48" />
 
 
 ### Monthly Refresh Job - 
