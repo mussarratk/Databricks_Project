@@ -242,6 +242,19 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 <img width="1334" height="333" alt="image" src="https://github.com/user-attachments/assets/52a1d15a-7cad-47b7-88bf-e040970959bf" />
 <img width="1358" height="520" alt="image" src="https://github.com/user-attachments/assets/8e75bab3-f32a-4bd2-851f-62c897093b48" />
 <img width="554" height="434" alt="image" src="https://github.com/user-attachments/assets/cd3d2809-064d-4b22-83b4-274190e1316e" />
+<img width="1170" height="443" alt="image" src="https://github.com/user-attachments/assets/0c74d853-ece4-490b-8221-d57a7ef27a86" />
+<img width="1164" height="545" alt="image" src="https://github.com/user-attachments/assets/edeedec5-c1b1-41b2-a64d-d45f7e29169b" />
+<img width="857" height="447" alt="image" src="https://github.com/user-attachments/assets/adc1d752-3118-4bed-a472-657e632dbbee" />
+<img width="849" height="405" alt="image" src="https://github.com/user-attachments/assets/c8201d8e-9779-41fe-853f-5d0f768d4be7" />
+<img width="835" height="359" alt="image" src="https://github.com/user-attachments/assets/14cac95d-2937-4bdf-8968-127de645523f" />
+<img width="1161" height="481" alt="image" src="https://github.com/user-attachments/assets/f7ba13e3-de68-4025-80c9-1a37355fb928" />
+<img width="852" height="371" alt="image" src="https://github.com/user-attachments/assets/c729e60d-241c-44d4-ba67-2f5bffa1060f" />
+<img width="1012" height="568" alt="image" src="https://github.com/user-attachments/assets/1296c67f-2d5f-4380-965c-e3a9e3e3b28f" />
+<img width="1146" height="435" alt="image" src="https://github.com/user-attachments/assets/63e06e45-fbbf-4ce5-a086-f499b018478f" />
+
+
+
+
 
 
 ### Monthly Refresh Job - 
