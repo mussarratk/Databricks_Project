@@ -241,6 +241,7 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 ### Daily Refresh Job - task job - 
 <img width="1334" height="333" alt="image" src="https://github.com/user-attachments/assets/52a1d15a-7cad-47b7-88bf-e040970959bf" />
 <img width="1358" height="520" alt="image" src="https://github.com/user-attachments/assets/8e75bab3-f32a-4bd2-851f-62c897093b48" />
+<img width="554" height="434" alt="image" src="https://github.com/user-attachments/assets/cd3d2809-064d-4b22-83b4-274190e1316e" />
 
 
 ### Monthly Refresh Job - 
