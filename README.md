@@ -165,7 +165,20 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 
 
 
+### _resued_data - when you get new field it add it under here
 
 
+
+### ChangeDataFeed = True in silver layer - _change_type - insert/update-pre or post/delete
+
+### Date object is bigger 21-06-2025 then Date_id - 21062025 is integer object - which makes things little faster
+
+### Dimensional Pipeline - 
+
+
+### Fact Pipeline - 
+
+
+### Daily Refresh Job - task job - 
 ---
 
