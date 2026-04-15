@@ -136,6 +136,24 @@ databricks - through Access Connector : got data into databricks
 /Volumes/ecommerce/raw/raw_landing - external volume
 <img width="1341" height="525" alt="image" src="https://github.com/user-attachments/assets/b13b0c9e-3d0f-416e-a983-b85bd5a5fd38" />
 
+
+
+----
+## Started Data Timeline Jan 2024 to Aug 2025 (Historical Data) -- Dec 2025 (Incremental Data)
+### Batch Processing: Collected data n process it all at once - every night data dropped at 11'o clock ETL job will load data in data warehouse triggered on schedule at every 2/4'o clock - Generate monthly financial data, daily summary data, Backfilling missing data.
+### Stream Processing: As soon as data arrives - checkpointing for recovery (it saves the information which files are already processed)- almost real time monitoring PowerBI dashboard updates with seconds, Kafka for upstream - live analytics - constantly- daily on going basis - Stock market price analytics -  **design data pipeline such that it process it  automatically ** 
+
+<img width="1188" height="318" alt="image" src="https://github.com/user-attachments/assets/f1ab15f5-3418-47d8-afe5-b3d14eb4372f" />
+<img width="649" height="294" alt="image" src="https://github.com/user-attachments/assets/c7f17202-0f1d-44c8-b1b3-9c33457be9ad" />
+<img width="650" height="301" alt="image" src="https://github.com/user-attachments/assets/352503e8-9abc-4ee3-83be-cfee4a93baf6" />
+
+
+catalog_name = 'ecommerce' --- as variable later paramerterized with dbutils.widget
+the third parameter means - False in schema - Can not have Null field in brand code as Primary key
+<img width="1317" height="577" alt="image" src="https://github.com/user-attachments/assets/40ff0191-8edc-4a20-9a47-d562d44acc14" />
+<img width="1206" height="558" alt="image" src="https://github.com/user-attachments/assets/c9db9648-558f-4696-b07c-6be835a03a35" />
+
+Read csv files into a df first then write to a delta table - df.write.format("delta")
 Through that raw connection - ingested data in bronze layer - and only dimension tables
 - added metadata colums : source_file n ingested at
 - ingest csv file write the data into delta table format so that it gets all the capabilities of like acid, time-travel - its essential component of Lakehouse architecture
@@ -143,13 +161,6 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 <img width="666" height="601" alt="image" src="https://github.com/user-attachments/assets/7394890d-4153-4c9e-9a4c-3642ce8609cf" />
 
 <img width="1348" height="627" alt="image" src="https://github.com/user-attachments/assets/3fc158fe-8fa3-416c-b113-5e03e92b5086" />
-
-----
-## Started Data Timeline Jan 2024 to Aug 2025 (Historical Data) -- Dec 2025 (Incremental Data)
-### Batch Processing: Collected data n process it all at once - every night data dropped at 11'o clock ETL job will load data in data warehouse triggered on schedule at every 2/4'o clock - Generate monthly financial data, daily summary data, Backfilling missing data.
-### Stream Processing: As soon as data arrives - checkpointing for recovery (it saves the information which files are already processed)- almost real time monitoring PowerBI dashboard updates with seconds, Kafka for upstream - live analytics - constantly- daily on going basis - Stock market price analytics -  **design data pipeline such that it process it  automatically **
-
-
 
 ### Autoloader is a streaming ingestion feature designed to efficiently n automatically process new data files as they arrive in cloud storage - ADLS, S3 - in our case - in adls ecomm order_item - landing foldr daily someone is dropping new files n then we need to only process new files efficiently figure out - autoloader is feature which provide that functionality -- using pyspark module argument is CloudFiles : go to adls location n use autoloader to observe the file which are new don't process the old, it keeps track of old files what is processed. 
 
