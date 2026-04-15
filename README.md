@@ -193,7 +193,8 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 - fact silver
 <img width="1261" height="508" alt="image" src="https://github.com/user-attachments/assets/823572fd-299e-4336-a886-205ce673eecd" />
 <img width="1294" height="608" alt="image" src="https://github.com/user-attachments/assets/cdfa46bc-37b0-4e2c-903f-fa55c4cd8d3c" />
-
+<img width="637" height="591" alt="image" src="https://github.com/user-attachments/assets/c46e27bf-2136-489f-9d0b-5778be5d4261" />
+<img width="658" height="493" alt="image" src="https://github.com/user-attachments/assets/659bd1fb-db93-4d1b-a7bb-37c7045e5bc2" />
 
 
 
@@ -216,7 +217,10 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 
 
 
-### ChangeDataFeed = True in silver layer - _change_type - insert/update-pre or post/delete
+### ChangeDataFeed = True in silver layer - _change_type - insert/update-pre or post/delete 
+- CDF - track the changes in row level - more granular - useful for compliance
+- df = 500000 Batch No 1 -100000, Batch no 2 - 100,000
+- Upsert -- Already have table create an object delta table - Merge with existing table microBatch - trace
 
 ### Date object is bigger 21-06-2025 then Date_id - 21062025 is integer object - which makes things little faster
 
