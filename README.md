@@ -253,10 +253,24 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 <img width="1146" height="435" alt="image" src="https://github.com/user-attachments/assets/63e06e45-fbbf-4ce5-a086-f499b018478f" />
 
 
+<img width="1301" height="593" alt="image" src="https://github.com/user-attachments/assets/fd995403-a68a-4797-af5c-bfd6b318a9b1" />
 
 
 
 
 ### Monthly Refresh Job - 
+
+### Power BI
+
+<img width="722" height="378" alt="image" src="https://github.com/user-attachments/assets/bf777614-5b79-4026-a518-e8403fc04098" />
+<img width="1346" height="545" alt="image" src="https://github.com/user-attachments/assets/8448b7f9-4eac-470d-8cd4-855e5e2c001b" />
+<img width="790" height="360" alt="image" src="https://github.com/user-attachments/assets/3a0f9817-a144-4977-b648-39d396ab9dd3" />
+<img width="1207" height="521" alt="image" src="https://github.com/user-attachments/assets/6df8dc00-08a7-477f-a3e9-a5c082239550" />
+<img width="1005" height="302" alt="image" src="https://github.com/user-attachments/assets/637797ad-6156-46d1-b59c-f5d4ecc83fd4" />
+
+<img width="798" height="474" alt="image" src="https://github.com/user-attachments/assets/62c0ab0a-4b54-463f-9f57-17ecf15a66a3" />
+
+
+
 ---
 
