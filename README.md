@@ -174,7 +174,25 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 <img width="1288" height="566" alt="image" src="https://github.com/user-attachments/assets/2c991297-d5f5-4f14-b3df-c3a5d37e3da6" />
 <img width="1277" height="631" alt="image" src="https://github.com/user-attachments/assets/874afc03-3af9-40a0-90fa-0b17cd9f1419" />
 
+<img width="655" height="569" alt="image" src="https://github.com/user-attachments/assets/e525a829-1fee-4b3b-93b1-0436b1540325" />
+<img width="1255" height="509" alt="image" src="https://github.com/user-attachments/assets/6439faab-48bc-4cad-8957-c8793bb43842" />
 
+### readStream - Structured Streaming API
+
+- create delta table in ecommerce catalog.bronze ---- bronze.brz_order_items
+- create checkpoint in adls - ecomm-raw-data > checkpoint
+- check ingested file count
+  
+<img width="1354" height="488" alt="image" src="https://github.com/user-attachments/assets/06aa6d32-3b81-48c9-9c68-70f3db5357f2" />
+<img width="1253" height="418" alt="image" src="https://github.com/user-attachments/assets/f685938c-8964-4eaf-91b8-7d1fa26a775c" />
+<img width="1229" height="481" alt="image" src="https://github.com/user-attachments/assets/e59cf8dd-6c45-4f5a-9634-645a4129483f" />
+<img width="1171" height="467" alt="image" src="https://github.com/user-attachments/assets/26b9defb-a049-4d7a-9dec-d112b2cc4fea" />
+<img width="1164" height="434" alt="image" src="https://github.com/user-attachments/assets/c4810340-6e46-4bf2-953e-6b129cd2bca2" />
+<img width="662" height="549" alt="image" src="https://github.com/user-attachments/assets/b42058f2-055a-4c9a-bde6-896a768a5cc7" />
+
+- fact silver
+<img width="1261" height="508" alt="image" src="https://github.com/user-attachments/assets/823572fd-299e-4336-a886-205ce673eecd" />
+<img width="1294" height="608" alt="image" src="https://github.com/user-attachments/assets/cdfa46bc-37b0-4e2c-903f-fa55c4cd8d3c" />
 
 
 
