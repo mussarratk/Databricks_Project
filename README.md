@@ -195,6 +195,18 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 <img width="1294" height="608" alt="image" src="https://github.com/user-attachments/assets/cdfa46bc-37b0-4e2c-903f-fa55c4cd8d3c" />
 <img width="637" height="591" alt="image" src="https://github.com/user-attachments/assets/c46e27bf-2136-489f-9d0b-5778be5d4261" />
 <img width="658" height="493" alt="image" src="https://github.com/user-attachments/assets/659bd1fb-db93-4d1b-a7bb-37c7045e5bc2" />
+<img width="1248" height="492" alt="image" src="https://github.com/user-attachments/assets/65ec9723-bd10-422c-832f-7e1ca20e04d3" />
+<img width="652" height="441" alt="image" src="https://github.com/user-attachments/assets/7b4bfd7d-ef56-4490-bc38-22a37b4cfe88" />
+<img width="646" height="496" alt="image" src="https://github.com/user-attachments/assets/f3bd1330-5d47-416c-90c5-b52c10f903a1" />
+
+- fact gold 
+<img width="973" height="549" alt="image" src="https://github.com/user-attachments/assets/2207378b-5e85-4b73-8326-8ca48e280b25" />
+<img width="1039" height="518" alt="image" src="https://github.com/user-attachments/assets/4b1f2a80-0784-498a-bcdf-24f7c9bd94df" />
+
+- Daily summary table
+<img width="1354" height="624" alt="image" src="https://github.com/user-attachments/assets/57dd120e-5f68-470b-8cf1-2ab2d2bbfd99" />
+<img width="1357" height="637" alt="image" src="https://github.com/user-attachments/assets/2a961b2c-fd63-4998-96f6-1a4e5c203c76" />
+<img width="1353" height="626" alt="image" src="https://github.com/user-attachments/assets/e9784dd3-7b3c-4d3d-803f-5e01f0627b81" />
 
 
 
@@ -203,19 +215,9 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 
 ### Structured Streaming : Is a stream processing engine that uses unified API to process both batch n stream processing
 
-
-
-
-
-
-### Widgets - dbutils.widgets - is use in many ways to specify the storage acount name or environment - dev/prod/beta - so the benefit is whenever running the same the notebook for different environment can update widgets and change the env and ok run all the cells n messing up with code for reconfigure parameter 
-
-
-
+### Widgets - dbutils.widgets - is use in many ways to specify the storage acount name or environment - dev/prod/beta - so the benefit is whenever running the same the notebook for different environment can update widgets and change the env and ok run all the cells n messing up with code for reconfigure parameter
 
 ### _resued_data - when you get new field it add it under here
-
-
 
 ### ChangeDataFeed = True in silver layer - _change_type - insert/update-pre or post/delete 
 - CDF - track the changes in row level - more granular - useful for compliance
@@ -224,6 +226,8 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 
 ### Date object is bigger 21-06-2025 then Date_id - 21062025 is integer object - which makes things little faster
 
+
+
 ### Dimensional Pipeline - 
 
 
@@ -231,5 +235,8 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 
 
 ### Daily Refresh Job - task job - 
+
+
+### Monthly Refresh Job - 
 ---
 
