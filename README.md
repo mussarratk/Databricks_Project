@@ -269,6 +269,7 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 <img width="1005" height="302" alt="image" src="https://github.com/user-attachments/assets/637797ad-6156-46d1-b59c-f5d4ecc83fd4" />
 
 <img width="798" height="474" alt="image" src="https://github.com/user-attachments/assets/62c0ab0a-4b54-463f-9f57-17ecf15a66a3" />
+<img width="840" height="538" alt="image" src="https://github.com/user-attachments/assets/c7c5dc4e-8fee-4832-8966-58b0aae55e6a" />
 
 
 
