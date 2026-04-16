@@ -69,38 +69,38 @@ The Gold layer directly feeds a Power BI data model, delivering actionable insig
   * **Product Performance:** Sales split by Brand, Category, and Channel (Mobile vs. Website).
 
 -----
+## 📈 Business Outcomes
 
-📈 Business Outcomes
-Eliminated manual data consolidation
-Reduced reporting turnaround from hours to minutes
-Established a single source of truth for analytics
-Enabled real-time, self-service reporting for stakeholders
-Built a scalable and extensible data foundation for future data growth
+* **Eliminated manual data consolidation**, streamlining operations.
+* **Reduced reporting turnaround** from hours to minutes.
+* **Established a single source of truth** for enterprise analytics.
+* **Enabled real-time, self-service reporting** for key stakeholders.
+* **Built a scalable and extensible data foundation** to support future data growth.
 
+---
 
-🧠 Skills & Concepts Learned
-Azure Data Lake Storage Gen2 (ADLS)
-Azure Databricks & Databricks Jobs
-Delta Lake & Medallion Architecture
-Unity Catalog & ETL / ELT Pipeline Design
-Data Quality & Validation Techniques
-Fact & Dimension Modeling (Star Schema)
-Incremental & Scheduled Data Processing
-Power BI Data Modeling & Visualization
-End-to-End Cloud Data Engineering
+## 🧠 Skills & Concepts Learned
 
-🧰 Tech Stack
-Cloud: Microsoft Azure
-Storage: Azure Data Lake Storage Gen2
-Processing: Azure Databricks (PySpark, SQL, Unity Catalog)
-Data Format: Delta Lake
-Orchestration: Databricks Jobs
-Visualization: Power BI
+* Azure Data Lake Storage Gen2 (ADLS)
+* Azure Databricks & Databricks Jobs
+* Delta Lake & Medallion Architecture
+* Unity Catalog & ETL / ELT Pipeline Design
+* Data Quality & Validation Techniques
+* Fact & Dimension Modeling (Star Schema)
+* Incremental & Scheduled Data Processing
+* Power BI Data Modeling & Visualization
+* End-to-End Cloud Data Engineering
 
+---
 
+## 🧰 Tech Stack
 
-
-
+* **Cloud:** Microsoft Azure
+* **Storage:** Azure Data Lake Storage Gen2
+* **Processing:** Azure Databricks (PySpark, SQL, Unity Catalog)
+* **Data Format:** Delta Lake
+* **Orchestration:** Databricks Jobs
+* **Visualization:** Power BI
 
 
 -----
