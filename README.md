@@ -70,6 +70,41 @@ The Gold layer directly feeds a Power BI data model, delivering actionable insig
 
 -----
 
+📈 Business Outcomes
+Eliminated manual data consolidation
+Reduced reporting turnaround from hours to minutes
+Established a single source of truth for analytics
+Enabled real-time, self-service reporting for stakeholders
+Built a scalable and extensible data foundation for future data growth
+
+
+🧠 Skills & Concepts Learned
+Azure Data Lake Storage Gen2 (ADLS)
+Azure Databricks & Databricks Jobs
+Delta Lake & Medallion Architecture
+Unity Catalog & ETL / ELT Pipeline Design
+Data Quality & Validation Techniques
+Fact & Dimension Modeling (Star Schema)
+Incremental & Scheduled Data Processing
+Power BI Data Modeling & Visualization
+End-to-End Cloud Data Engineering
+
+🧰 Tech Stack
+Cloud: Microsoft Azure
+Storage: Azure Data Lake Storage Gen2
+Processing: Azure Databricks (PySpark, SQL, Unity Catalog)
+Data Format: Delta Lake
+Orchestration: Databricks Jobs
+Visualization: Power BI
+
+
+
+
+
+
+
+-----
+
 ## 🧠 Developer Profile & Highlighted Skills
 
 I am a **Databricks Certified Associate** currently pursuing an MBA in Data Science. With over 4 years of experience driving high-stakes E-commerce operations for global brands, I am deeply passionate about engineering the narrative—turning fragmented data into scalable data pipelines and enabling data-driven insights.
