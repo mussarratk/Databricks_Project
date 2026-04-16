@@ -262,6 +262,8 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 
 ### Power BI
 
+<img width="909" height="688" alt="image" src="https://github.com/user-attachments/assets/19e020c8-8709-4acb-b08c-294420ebe04c" />
+
 <img width="722" height="378" alt="image" src="https://github.com/user-attachments/assets/bf777614-5b79-4026-a518-e8403fc04098" />
 <img width="1346" height="545" alt="image" src="https://github.com/user-attachments/assets/8448b7f9-4eac-470d-8cd4-855e5e2c001b" />
 <img width="790" height="360" alt="image" src="https://github.com/user-attachments/assets/3a0f9817-a144-4977-b648-39d396ab9dd3" />
