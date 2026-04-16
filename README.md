@@ -53,7 +53,6 @@ To ensure data freshness while optimizing compute costs, processing is divided i
   * **📅 Monthly Refresh:** Processes heavy historical loads, specifically `Fact_Order_Returns` and `Fact_Order_Shipments`, enabling long-term trend analysis.
   * 
 <img width="1170" height="443" alt="image" src="https://github.com/user-attachments/assets/0c74d853-ece4-490b-8221-d57a7ef27a86" />
-<img width="852" height="371" alt="image" src="https://github.com/user-attachments/assets/c729e60d-241c-44d4-ba67-2f5bffa1060f" />
 <img width="1012" height="568" alt="image" src="https://github.com/user-attachments/assets/1296c67f-2d5f-4380-965c-e3a9e3e3b28f" />
 <img width="1146" height="435" alt="image" src="https://github.com/user-attachments/assets/63e06e45-fbbf-4ce5-a086-f499b018478f" />
 -----
