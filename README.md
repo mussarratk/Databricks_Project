@@ -52,7 +52,8 @@ To ensure data freshness while optimizing compute costs, processing is divided i
 
 ## 📊 Analytics & Dashboards
 
-`[Insert Dashboard Preview Image Here]` | [🔗 View Live Dashboard](https://www.google.com/search?q=Link-to-dashboard)
+<img width="870" height="484" alt="image" src="https://github.com/user-attachments/assets/d5a28d97-3403-409b-a169-e309428919a5" />
+
 
 The Gold layer directly feeds a Power BI data model, delivering actionable insights on:
 
