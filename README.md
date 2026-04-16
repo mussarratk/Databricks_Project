@@ -5,7 +5,7 @@
 
 ## 📌 Project Overview
 
-ShopVista is a simulated high-growth e-commerce platform that was constrained by scattered data, manual consolidation, and delayed reporting cycles.
+ShopVista is a rapidly growing e-commerce platform that faced major challenges due to data being scattered across multiple source systems and flat files. Business teams relied on manual data consolidation and static reports, resulting in delayed insights and limited visibility into sales, customers, and operations.
 
 This project solves these bottlenecks by delivering a **centralized, scalable, and fully automated data platform** on Microsoft Azure. By utilizing Azure Databricks, Unity Catalog, and a strict Medallion Architecture, raw operational data is transformed into high-performance, analytics-ready datasets that power an interactive Power BI dashboard for executive decision-making.
 
@@ -41,13 +41,21 @@ Using PySpark and Delta Lake, data progresses through three strict refinement la
 | **🥈 Silver** | Cleansing & Conforming | Deduplication, handling nulls/invalid records, referential integrity checks, and standardization. |
 | **🥇 Gold** | Business Intelligence | Star schema modeling (Fact & Dimension tables), aggregated metrics, optimized for Power BI. |
 
+<img width="1357" height="637" alt="image" src="https://github.com/user-attachments/assets/2a961b2c-fd63-4998-96f6-1a4e5c203c76" />
+<img width="666" height="601" alt="image" src="https://github.com/user-attachments/assets/7394890d-4153-4c9e-9a4c-3642ce8609cf" />
+<img width="1348" height="627" alt="image" src="https://github.com/user-attachments/assets/3fc158fe-8fa3-416c-b113-5e03e92b5086" />
+
 ### 3\. Automated Orchestration
 
 To ensure data freshness while optimizing compute costs, processing is divided into scheduled Databricks Jobs:
 
   * **🔁 Daily Refresh:** Processes Dimension tables (Customers, Products, Categories, Brands, Date) and `Fact_Order_Items`. Dependencies are strictly enforced to guarantee referential consistency.
   * **📅 Monthly Refresh:** Processes heavy historical loads, specifically `Fact_Order_Returns` and `Fact_Order_Shipments`, enabling long-term trend analysis.
-
+  * 
+<img width="1170" height="443" alt="image" src="https://github.com/user-attachments/assets/0c74d853-ece4-490b-8221-d57a7ef27a86" />
+<img width="852" height="371" alt="image" src="https://github.com/user-attachments/assets/c729e60d-241c-44d4-ba67-2f5bffa1060f" />
+<img width="1012" height="568" alt="image" src="https://github.com/user-attachments/assets/1296c67f-2d5f-4380-965c-e3a9e3e3b28f" />
+<img width="1146" height="435" alt="image" src="https://github.com/user-attachments/assets/63e06e45-fbbf-4ce5-a086-f499b018478f" />
 -----
 
 ## 📊 Analytics & Dashboards
