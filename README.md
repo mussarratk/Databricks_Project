@@ -17,7 +17,19 @@ This project solves these bottlenecks by delivering a **centralized, scalable, a
   * **Self-Service BI:** Empowered business stakeholders to track KPIs in real-time.
 
 -----
+## 🛠️ Solution Approach
+A centralized Azure-based data platform was designed to ingest, process, and serve data in a fully automated manner:
 
+* Azure Data Lake Storage Gen2 (ADLS) as the centralized data lake
+* Azure Databricks and Unity Catalog for scalable ETL/ELT processing
+* Delta Lake tables for reliability, performance and schema enforcement
+* Medallion Architecture (Bronze, Silver, Gold) for progressive data refinement
+* Automated Databricks Jobs for daily and monthly orchestration
+* Power BI for interactive analytics and reporting
+
+
+
+---
 ## 🏗️ Technical Architecture & Medallion Pipeline
 
 The solution leverages an ELT approach, orchestrated on Azure:
@@ -40,8 +52,15 @@ Using PySpark and Delta Lake, data progresses through three strict refinement la
 | **🥉 Bronze** | Raw Ingestion | Minimal transformation, historical storage, and strict schema enforcement. |
 | **🥈 Silver** | Cleansing & Conforming | Deduplication, handling nulls/invalid records, referential integrity checks, and standardization. |
 | **🥇 Gold** | Business Intelligence | Star schema modeling (Fact & Dimension tables), aggregated metrics, optimized for Power BI. |
-
+----
 <img width="1357" height="637" alt="image" src="https://github.com/user-attachments/assets/2a961b2c-fd63-4998-96f6-1a4e5c203c76" />
+
+----
+
+## 📂 Azure Data Lake – Raw Zone
+* Raw datasets stored in ADLS include:
+---
+
 <img width="666" height="601" alt="image" src="https://github.com/user-attachments/assets/7394890d-4153-4c9e-9a4c-3642ce8609cf" />
 <img width="1348" height="627" alt="image" src="https://github.com/user-attachments/assets/3fc158fe-8fa3-416c-b113-5e03e92b5086" />
 
@@ -51,10 +70,28 @@ To ensure data freshness while optimizing compute costs, processing is divided i
 
   * **🔁 Daily Refresh:** Processes Dimension tables (Customers, Products, Categories, Brands, Date) and `Fact_Order_Items`. Dependencies are strictly enforced to guarantee referential consistency.
   * **📅 Monthly Refresh:** Processes heavy historical loads, specifically `Fact_Order_Returns` and `Fact_Order_Shipments`, enabling long-term trend analysis.
-  * 
+    --
+    
 <img width="1170" height="443" alt="image" src="https://github.com/user-attachments/assets/0c74d853-ece4-490b-8221-d57a7ef27a86" />
+
 <img width="1012" height="568" alt="image" src="https://github.com/user-attachments/assets/1296c67f-2d5f-4380-965c-e3a9e3e3b28f" />
+
 <img width="1146" height="435" alt="image" src="https://github.com/user-attachments/assets/63e06e45-fbbf-4ce5-a086-f499b018478f" />
+
+---
+* A fully automated daily Databricks job was created to process:
+   *   Dimension tables (Customers, Products, Categories, Brands, Date)
+         Fact Order Items
+* Ensures fresh, analytics-ready data every day
+* Dependencies enforced between dimension and fact processing, guaranteeing data consistency
+
+---
+
+* A separate monthly job processes:
+   Fact Order Returns   
+   Fact Order Shipments
+* This design optimizes compute usage while supporting accurate historical trend analysis.
+
 -----
 
 ## 📊 Analytics & Dashboards
@@ -145,6 +182,9 @@ Special thanks to **Codebasics** for their exceptional Data Engineering Bootcamp
 
 
 ---
+<details>
+   
+
 Azure Workspace
 
 <img width="1366" height="580" alt="image" src="https://github.com/user-attachments/assets/142bb989-0721-4f86-940f-4b07c9db942a" />
@@ -321,3 +361,4 @@ Through that raw connection - ingested data in bronze layer - and only dimension
 
 ---
 
+</details>
