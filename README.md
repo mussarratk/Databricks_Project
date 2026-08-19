@@ -1,4 +1,7 @@
 # Databricks_Project
+https://github.com/mussarratk/de_project/tree/main
+https://github.com/mussarratk/up4_End-to-End-Retail-Databricks-Project
+https://github.com/mussarratk/data-e-203
 
 # 🛒 ShopVista: End-to-End Azure Data Engineering: E-commerce Pipeline with Databricks & PySpark
    
